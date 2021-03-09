@@ -1,0 +1,1208 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GBCoreService | General Bots Open Core</title>
+	<meta name="description" content="Documentation for General Bots Open Core">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">General Bots Open Core</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_packages_core_gbapp_services_gbcoreservice_.html">&quot;packages/core.gbapp/services/GBCoreService&quot;</a>
+				</li>
+				<li>
+					<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html">GBCoreService</a>
+				</li>
+			</ul>
+			<h1>Class GBCoreService</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>GBCoreService contains main logic for handling storage services related
+							to instance handling. When the server starts a instance is needed and
+							if no instance is found a boot instance is created. After that high-level
+							instance management methods can be created.
+						Core scheduling, base network services are also handled in this service.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">GBCoreService</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">IGBCoreService</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-external">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-external">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#adminservice" class="tsd-kind-icon">admin<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#changecolumnquery" class="tsd-kind-icon">change<wbr>Column<wbr>Query</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createtablequery" class="tsd-kind-icon">create<wbr>Table<wbr>Query</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#dialect" class="tsd-kind-icon">dialect</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#querygenerator" class="tsd-kind-icon">query<wbr>Generator</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#sequelize" class="tsd-kind-icon">sequelize</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-external">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#changecolumnqueryoverride" class="tsd-kind-icon">change<wbr>Column<wbr>Query<wbr>Override</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#checkstorage" class="tsd-kind-icon">check<wbr>Storage</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createbootinstance" class="tsd-kind-icon">create<wbr>Boot<wbr>Instance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createtablequeryoverride" class="tsd-kind-icon">create<wbr>Table<wbr>Query<wbr>Override</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#deleteinstance" class="tsd-kind-icon">delete<wbr>Instance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureadminissecured" class="tsd-kind-icon">ensure<wbr>Admin<wbr>IsSecured</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureinstances" class="tsd-kind-icon">ensure<wbr>Instances</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureproxy" class="tsd-kind-icon">ensure<wbr>Proxy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#getparam" class="tsd-kind-icon">get<wbr>Param</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#initstorage" class="tsd-kind-icon">init<wbr>Storage</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#installwebhook" class="tsd-kind-icon">install<wbr>Web<wbr>Hook</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadallinstances" class="tsd-kind-icon">load<wbr>All<wbr>Instances</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebyactivationcode" class="tsd-kind-icon">load<wbr>Instance<wbr>ByActivation<wbr>Code</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebybotid" class="tsd-kind-icon">load<wbr>Instance<wbr>ByBot<wbr>Id</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebyid" class="tsd-kind-icon">load<wbr>Instance<wbr>ById</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstances" class="tsd-kind-icon">load<wbr>Instances</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadschedules" class="tsd-kind-icon">load<wbr>Schedules</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadsyspackages" class="tsd-kind-icon">load<wbr>Sys<wbr>Packages</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#openbrowserindevelopment" class="tsd-kind-icon">open<wbr>Browser<wbr>InDevelopment</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#openstoragefrontier" class="tsd-kind-icon">open<wbr>Storage<wbr>Frontier</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#saveinstance" class="tsd-kind-icon">save<wbr>Instance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#setentrypointdialog" class="tsd-kind-icon">set<wbr>Entry<wbr>Point<wbr>Dialog</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#setwwwroot" class="tsd-kind-icon">setWWWRoot</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#syncdatabasestructure" class="tsd-kind-icon">sync<wbr>Database<wbr>Structure</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#writeenv" class="tsd-kind-icon">write<wbr>Env</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-external">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">new GBCore<wbr>Service<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L100">packages/core.gbapp/services/GBCoreService.ts:100</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-external">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
+					<a name="adminservice" class="tsd-anchor"></a>
+					<h3>admin<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">admin<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="_packages_admin_gbapp_services_gbadminservice_.gbadminservice.html" class="tsd-signature-type">GBAdminService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L80">packages/core.gbapp/services/GBCoreService.ts:80</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Administrative services.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="changecolumnquery" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> change<wbr>Column<wbr>Query</h3>
+					<div class="tsd-signature tsd-kind-icon">change<wbr>Column<wbr>Query<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L95">packages/core.gbapp/services/GBCoreService.ts:95</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Custom change column query.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+											</li>
+											<li>
+												<h5>attributes: <span class="tsd-signature-type">any</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="createtablequery" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> create<wbr>Table<wbr>Query</h3>
+					<div class="tsd-signature tsd-kind-icon">create<wbr>Table<wbr>Query<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L90">packages/core.gbapp/services/GBCoreService.ts:90</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Custom create table query.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+											</li>
+											<li>
+												<h5>attributes: <span class="tsd-signature-type">any</span></h5>
+											</li>
+											<li>
+												<h5>options: <span class="tsd-signature-type">any</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="dialect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> dialect</h3>
+					<div class="tsd-signature tsd-kind-icon">dialect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L100">packages/core.gbapp/services/GBCoreService.ts:100</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Dialect used. Tested: mssql and sqlite.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="querygenerator" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> query<wbr>Generator</h3>
+					<div class="tsd-signature tsd-kind-icon">query<wbr>Generator<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L85">packages/core.gbapp/services/GBCoreService.ts:85</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Allows filtering on SQL generated before send to the database.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
+					<a name="sequelize" class="tsd-anchor"></a>
+					<h3>sequelize</h3>
+					<div class="tsd-signature tsd-kind-icon">sequelize<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Sequelize</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L75">packages/core.gbapp/services/GBCoreService.ts:75</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Data access layer instance.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-external">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="changecolumnqueryoverride" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> change<wbr>Column<wbr>Query<wbr>Override</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">change<wbr>Column<wbr>Query<wbr>Override<span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L583">packages/core.gbapp/services/GBCoreService.ts:583</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>SQL:
+										let sql = &#39;&#39; +
+										&#39;ALTER TABLE [UserGroup]&#39; +
+										&#39;  ADD CONSTRAINT [invalid1] FOREIGN KEY ([userId1], [userId2], [userId3]) REFERENCES [User] ([userId1], [userId2], [userId3]) ON DELETE NO ACTION,&#39; +
+										&#39;      CONSTRAINT [invalid2] FOREIGN KEY ([groupId1], [groupId2]) REFERENCES [Group] ([groupId1], [groupId2]) ON DELETE NO ACTION, &#39; +
+									&#39;      CONSTRAINT [invalid3] FOREIGN KEY ([instanceId1]) REFERENCES [Instance] ([instanceId1]) ON DELETE NO ACTION&#39;</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>attributes: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="checkstorage" class="tsd-anchor"></a>
+					<h3>check<wbr>Storage</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">check<wbr>Storage<span class="tsd-signature-symbol">(</span>installationDeployer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstallationDeployer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L189">packages/core.gbapp/services/GBCoreService.ts:189</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks wheather storage is acessible or not and opens firewall
+									in case of any connection block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>installationDeployer: <span class="tsd-signature-type">IGBInstallationDeployer</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="createbootinstance" class="tsd-anchor"></a>
+					<h3>create<wbr>Boot<wbr>Instance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Boot<wbr>Instance<span class="tsd-signature-symbol">(</span>core<span class="tsd-signature-symbol">: </span><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a>, installationDeployer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstallationDeployer</span>, proxyAddress<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L495">packages/core.gbapp/services/GBCoreService.ts:495</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates the first bot instance (boot instance) used to &quot;boot&quot; the server.
+										At least one bot is required to perform conversational administrative tasks.
+										So a base main bot is always deployed and will act as root bot for
+									configuration tree with three levels: .env &gt; root bot &gt; all other bots.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>core: <a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a></h5>
+								</li>
+								<li>
+									<h5>installationDeployer: <span class="tsd-signature-type">IGBInstallationDeployer</span></h5>
+								</li>
+								<li>
+									<h5>proxyAddress: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="createtablequeryoverride" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> create<wbr>Table<wbr>Query<wbr>Override</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Table<wbr>Query<wbr>Override<span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, attributes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L547">packages/core.gbapp/services/GBCoreService.ts:547</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>SQL:</p>
+								</div>
+								<p>// let sql: string = &#39;&#39; +
+									//   &#39;IF OBJECT_ID(&#39;[UserGroup]&#39;, &#39;U&#39;) IS NULL&#39; +
+									//   &#39;CREATE TABLE [UserGroup] (&#39; +
+									//   &#39;  [id] INTEGER NOT NULL IDENTITY(1,1),&#39; +
+									//   &#39;  [userId] INTEGER NULL,&#39; +
+									//   &#39;  [groupId] INTEGER NULL,&#39; +
+									//   &#39;  [instanceId] INTEGER NULL,&#39; +
+									//   &#39;  PRIMARY KEY ([id1], [id2]),&#39; +
+									//   &#39;  FOREIGN KEY ([userId1], [userId2], [userId3]) REFERENCES [User] ([userId1], [userId2], [userId3]) ON DELETE NO ACTION,&#39; +
+									//   &#39;  FOREIGN KEY ([groupId1], [groupId2]) REFERENCES [Group] ([groupId1], [groupId1]) ON DELETE NO ACTION,&#39; +
+								//   &#39;  FOREIGN KEY ([instanceId]) REFERENCES [Instance] ([instanceId]) ON DELETE NO ACTION)&#39;</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>attributes: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="deleteinstance" class="tsd-anchor"></a>
+					<h3>delete<wbr>Instance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Instance<span class="tsd-signature-symbol">(</span>botId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L359">packages/core.gbapp/services/GBCoreService.ts:359</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Removes a bot instance from storage.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>botId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="ensureadminissecured" class="tsd-anchor"></a>
+					<h3>ensure<wbr>Admin<wbr>IsSecured</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">ensure<wbr>Admin<wbr>IsSecured<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L480">packages/core.gbapp/services/GBCoreService.ts:480</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Verifies that an complex global password has been specified
+									before starting the server.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="ensureinstances" class="tsd-anchor"></a>
+					<h3>ensure<wbr>Instances</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">ensure<wbr>Instances<span class="tsd-signature-symbol">(</span>instances<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">[]</span>, bootInstance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, core<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBCoreService</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L108">packages/core.gbapp/services/GBCoreService.ts:108</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instances: <span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>bootInstance: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>core: <span class="tsd-signature-type">IGBCoreService</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="ensureproxy" class="tsd-anchor"></a>
+					<h3>ensure<wbr>Proxy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">ensure<wbr>Proxy<span class="tsd-signature-symbol">(</span>port<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L305">packages/core.gbapp/services/GBCoreService.ts:305</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Certifies that network servers will reach back the development machine
+										when calling back from web services. This ensures that reverse proxy is
+									established.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>port: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external">
+					<a name="getparam" class="tsd-anchor"></a>
+					<h3>get<wbr>Param</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Param&lt;T&gt;<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstance</span>, name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, defaultValue<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L623">packages/core.gbapp/services/GBCoreService.ts:623</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get a dynamic param from instance. Dynamic params are defined in Config.xlsx
+									and loaded into the work folder from /publish command.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <span class="tsd-signature-type">IGBInstance</span></h5>
+								</li>
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of param to get from instance.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> defaultValue: <span class="tsd-signature-type">T</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Value returned when no param is defined in Config.xlsx.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="initstorage" class="tsd-anchor"></a>
+					<h3>init<wbr>Storage</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">init<wbr>Storage<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L114">packages/core.gbapp/services/GBCoreService.ts:114</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets database config and connect to storage. Currently two databases
+									are available: SQL Server and SQLite.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="installwebhook" class="tsd-anchor"></a>
+					<h3>install<wbr>Web<wbr>Hook</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">install<wbr>Web<wbr>Hook<span class="tsd-signature-symbol">(</span>isGet<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L328">packages/core.gbapp/services/GBCoreService.ts:328</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Setup generic web hooks so .gbapps can expose application logic
+									and get called on demand.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>isGet: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadallinstances" class="tsd-anchor"></a>
+					<h3>load<wbr>All<wbr>Instances</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>All<wbr>Instances<span class="tsd-signature-symbol">(</span>core<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBCoreService</span>, installationDeployer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstallationDeployer</span>, proxyAddress<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L390">packages/core.gbapp/services/GBCoreService.ts:390</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads all bot instances from object storage, if it&#39;s formatted.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>core: <span class="tsd-signature-type">IGBCoreService</span></h5>
+								</li>
+								<li>
+									<h5>installationDeployer: <span class="tsd-signature-type">IGBInstallationDeployer</span></h5>
+								</li>
+								<li>
+									<h5>proxyAddress: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadinstancebyactivationcode" class="tsd-anchor"></a>
+					<h3>load<wbr>Instance<wbr>ByActivation<wbr>Code</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Instance<wbr>ByActivation<wbr>Code<span class="tsd-signature-symbol">(</span>code<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L256">packages/core.gbapp/services/GBCoreService.ts:256</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads just one Bot instance.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>code: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadinstancebybotid" class="tsd-anchor"></a>
+					<h3>load<wbr>Instance<wbr>ByBot<wbr>Id</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Instance<wbr>ByBot<wbr>Id<span class="tsd-signature-symbol">(</span>botId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L264">packages/core.gbapp/services/GBCoreService.ts:264</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads just one Bot instance.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>botId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadinstancebyid" class="tsd-anchor"></a>
+					<h3>load<wbr>Instance<wbr>ById</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Instance<wbr>ById<span class="tsd-signature-symbol">(</span>instanceId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L248">packages/core.gbapp/services/GBCoreService.ts:248</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads just one Bot instance by its internal Id.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instanceId: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadinstances" class="tsd-anchor"></a>
+					<h3>load<wbr>Instances</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Instances<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L225">packages/core.gbapp/services/GBCoreService.ts:225</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads all items to start several listeners.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadschedules" class="tsd-anchor"></a>
+					<h3>load<wbr>Schedules</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Schedules<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L655">packages/core.gbapp/services/GBCoreService.ts:655</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Load all cached schedule from BASIC SET SCHEDULE keyword.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="loadsyspackages" class="tsd-anchor"></a>
+					<h3>load<wbr>Sys<wbr>Packages</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Sys<wbr>Packages<span class="tsd-signature-symbol">(</span>core<span class="tsd-signature-symbol">: </span><a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBPackage</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L444">packages/core.gbapp/services/GBCoreService.ts:444</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads all system packages from &#39;packages&#39; folder.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>core: <a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-signature-type">GBCoreService</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IGBPackage</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="openbrowserindevelopment" class="tsd-anchor"></a>
+					<h3>open<wbr>Browser<wbr>InDevelopment</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>Browser<wbr>InDevelopment<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L526">packages/core.gbapp/services/GBCoreService.ts:526</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Helper to get the web browser onpened in UI interfaces.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+					<a name="openstoragefrontier" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> open<wbr>Storage<wbr>Frontier</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>Storage<wbr>Frontier<span class="tsd-signature-symbol">(</span>installationDeployer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstallationDeployer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L610">packages/core.gbapp/services/GBCoreService.ts:610</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Opens storage firewall used by the server when starting to get root bot instance.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>installationDeployer: <span class="tsd-signature-type">IGBInstallationDeployer</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="saveinstance" class="tsd-anchor"></a>
+					<h3>save<wbr>Instance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">save<wbr>Instance<span class="tsd-signature-symbol">(</span>fullInstance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_packages_core_gbapp_models_gbmodel_.guaribasinstance.html" class="tsd-signature-type">GuaribasInstance</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L369">packages/core.gbapp/services/GBCoreService.ts:369</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Saves a bot instance object to the storage handling
+									multi-column JSON based store &#39;params&#39; field.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fullInstance: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_packages_core_gbapp_models_gbmodel_.guaribasinstance.html" class="tsd-signature-type">GuaribasInstance</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="setentrypointdialog" class="tsd-anchor"></a>
+					<h3>set<wbr>Entry<wbr>Point<wbr>Dialog</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Entry<wbr>Point<wbr>Dialog<span class="tsd-signature-symbol">(</span>dialogName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L344">packages/core.gbapp/services/GBCoreService.ts:344</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Defines the entry point dialog to be called whenever a user
+									starts talking to the bot.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>dialogName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="setwwwroot" class="tsd-anchor"></a>
+					<h3>setWWWRoot</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">setWWWRoot<span class="tsd-signature-symbol">(</span>localPath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L352">packages/core.gbapp/services/GBCoreService.ts:352</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Replaces the default web application root path used to start the GB
+									with a custom home page.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>localPath: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="syncdatabasestructure" class="tsd-anchor"></a>
+					<h3>sync<wbr>Database<wbr>Structure</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">sync<wbr>Database<wbr>Structure<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Sequelize</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L207">packages/core.gbapp/services/GBCoreService.ts:207</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Syncronizes structure between model and tables in storage.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Sequelize</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
+					<a name="writeenv" class="tsd-anchor"></a>
+					<h3>write<wbr>Env</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">write<wbr>Env<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IGBInstance</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/GeneralBots/BotServer/blob/3f7c9ee/packages/core.gbapp/services/GBCoreService.ts#L276">packages/core.gbapp/services/GBCoreService.ts:276</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Writes .env required to start the full server. Used during
+										first startup, when user is asked some questions to create the
+									full base environment.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <span class="tsd-signature-type">IGBInstance</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module tsd-is-external">
+						<a href="../modules/_packages_core_gbapp_services_gbcoreservice_.html">&quot;packages/core.gbapp/services/GBCore<wbr>Service&quot;</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module tsd-is-external">
+						<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html" class="tsd-kind-icon">GBCore<wbr>Service</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#adminservice" class="tsd-kind-icon">admin<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#changecolumnquery" class="tsd-kind-icon">change<wbr>Column<wbr>Query</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createtablequery" class="tsd-kind-icon">create<wbr>Table<wbr>Query</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#dialect" class="tsd-kind-icon">dialect</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#querygenerator" class="tsd-kind-icon">query<wbr>Generator</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#sequelize" class="tsd-kind-icon">sequelize</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#changecolumnqueryoverride" class="tsd-kind-icon">change<wbr>Column<wbr>Query<wbr>Override</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#checkstorage" class="tsd-kind-icon">check<wbr>Storage</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createbootinstance" class="tsd-kind-icon">create<wbr>Boot<wbr>Instance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#createtablequeryoverride" class="tsd-kind-icon">create<wbr>Table<wbr>Query<wbr>Override</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#deleteinstance" class="tsd-kind-icon">delete<wbr>Instance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureadminissecured" class="tsd-kind-icon">ensure<wbr>Admin<wbr>IsSecured</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureinstances" class="tsd-kind-icon">ensure<wbr>Instances</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#ensureproxy" class="tsd-kind-icon">ensure<wbr>Proxy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#getparam" class="tsd-kind-icon">get<wbr>Param</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#initstorage" class="tsd-kind-icon">init<wbr>Storage</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#installwebhook" class="tsd-kind-icon">install<wbr>Web<wbr>Hook</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadallinstances" class="tsd-kind-icon">load<wbr>All<wbr>Instances</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebyactivationcode" class="tsd-kind-icon">load<wbr>Instance<wbr>ByActivation<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebybotid" class="tsd-kind-icon">load<wbr>Instance<wbr>ByBot<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstancebyid" class="tsd-kind-icon">load<wbr>Instance<wbr>ById</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadinstances" class="tsd-kind-icon">load<wbr>Instances</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadschedules" class="tsd-kind-icon">load<wbr>Schedules</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#loadsyspackages" class="tsd-kind-icon">load<wbr>Sys<wbr>Packages</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#openbrowserindevelopment" class="tsd-kind-icon">open<wbr>Browser<wbr>InDevelopment</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#openstoragefrontier" class="tsd-kind-icon">open<wbr>Storage<wbr>Frontier</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#saveinstance" class="tsd-kind-icon">save<wbr>Instance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#setentrypointdialog" class="tsd-kind-icon">set<wbr>Entry<wbr>Point<wbr>Dialog</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#setwwwroot" class="tsd-kind-icon">setWWWRoot</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#syncdatabasestructure" class="tsd-kind-icon">sync<wbr>Database<wbr>Structure</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
+								<a href="_packages_core_gbapp_services_gbcoreservice_.gbcoreservice.html#writeenv" class="tsd-kind-icon">write<wbr>Env</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-external tsd-is-not-exported">
+						<a href="../modules/_packages_core_gbapp_services_gbcoreservice_.html#cron" class="tsd-kind-icon">cron</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-external tsd-is-not-exported">
+						<a href="../modules/_packages_core_gbapp_services_gbcoreservice_.html#opn" class="tsd-kind-icon">opn</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
